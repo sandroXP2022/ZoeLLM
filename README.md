@@ -1,6 +1,7 @@
 # Zoe LLM
 
-> ⚠️ **This project is in its experimental phase.**
+> [!WARNING]
+> **This project is in its experimental phase.**
 
 A program for training and testing LLM models written in Python, with a beginner-friendly structure.
 
@@ -11,7 +12,7 @@ A program for training and testing LLM models written in Python, with a beginner
 2. [Requirements](#requirements)
 3. [Installation](#installation)
 4. [Configuration](#configuration)
-5. [Testing](#test)
+5. [Testing](#testi)
 ---
 
 ## Description
