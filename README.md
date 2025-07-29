@@ -43,18 +43,20 @@ Zoe LLM is a simple and modular toolkit for:
 # Installation
 To install the necessary programs and dependencies, we must clone the repository on the machine that will be used to build the model and set up a virtual environment with the necessary dependencies (remembering that a Python 3.11 interpreter must be installed on the system).
 
-bash
+``bash
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt``
+
 # Configuration
-First, we must download the datasets to build the model by running python utils/download_datasets.py
+First, we must download the datasets to build the model by running python `utils/download_datasets.py`
 > You can also import other datasets manually or modify the script to include more datasets ;)
 
-After downloading the datasets for the model, we must combine them and process them before running the tokenizer. To do this, simply run python utils/preprocess.py and to build the tokenizer, simply run the following scripts:
-bash
+After downloading the datasets for the model, we must combine them and process them before running the tokenizer. To do this, simply run python `utils/preprocess.py` and to build the tokenizer, simply run the following scripts:
+``bash
 python utils/compile_unigram.py
-python utils/tokenizer.py
+python utils/tokenizer.py``
+
 **I RECOMMEND TESTING THE TOKENIZER USING OUR TESTING TOOL python utils/test_tokenizer.py**
 
 After completing the necessary steps for the tokenizer, you can now train your model using python utils/train.py.
