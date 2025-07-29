@@ -7,7 +7,6 @@ A program for training and testing LLM models written in Python, with a beginner
 
 
 ## Table of Contents
-
 1. [Description](#description)
 2. [Requirements](#requirements)
 3. [Installation](#installation)
