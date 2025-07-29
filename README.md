@@ -21,7 +21,7 @@ Zoe LLM is a simple and modular toolkit for:
 
 - Downloading and preprocessing datasets
 - Building, training, and testing GPT-like models from scratch
-- Support for verbose logging (`DEBUG=1`) or progress bar (`tqdm`).
+- Support for verbose logging (DEBUG=1) or progress bar (tqdm).
 - Interactive chat pipeline for testing
 ---
 
@@ -43,19 +43,24 @@ Zoe LLM is a simple and modular toolkit for:
 # Installation
 To install the necessary programs and dependencies, we must clone the repository on the machine that will be used to build the model and set up a virtual environment with the necessary dependencies (remembering that a Python 3.11 interpreter must be installed on the system).
 
-```bash
+``bash
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt```
+pip install -r requirements.txt``
+
+
 
 # Configuration
-First, we must download the datasets to build the model by running python `utils/download_datasets.py`
+First, we must download the datasets to build the model by running python utils/download_datasets.py
 > You can also import other datasets manually or modify the script to include more datasets ;)
 
-After downloading the datasets for the model, we must combine them and process them before running the tokenizer. To do this, simply run python `utils/preprocess.py` and to build the tokenizer, simply run the following scripts:
-```bash
-python utils/compile_unigram.py
-python utils/tokenizer.py```
+After downloading the datasets for the model, we must combine them and process them before running the tokenizer. To do this, simply run python utils/preprocess.py and to build the tokenizer, simply run the following scripts:
+
+
+``python utils/compile_unigram.py
+python utils/tokenizer.py``
+
+
 
 **I RECOMMEND TESTING THE TOKENIZER USING OUR TESTING TOOL python utils/test_tokenizer.py**
 
@@ -65,4 +70,6 @@ Adjust the parameters in the train.py, model.py, and chat.py files as needed.
 > ⏳ **Model training can take a few hours depending on the situation...**
 
 # Testing
-To test the model, you can use `python utils/chat.py` to access the chat program that will interact with the model.
+To test the model, you can use python utils/chat.py to access the chat program that will interact with the model.
+
+reescreve o Markdown sem erros de formatação
