@@ -5,7 +5,7 @@
 
 A program for training and testing LLM models written in Python, with a beginner-friendly structure.
 
---
+
 ## Table of Contents
 
 1. [Description](#description)
