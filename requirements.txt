@@ -6,4 +6,5 @@ torch==2.2.2
 torchvision==0.17.2
 regex
 sentencepiece>=0.2.0
+unidecode
 
