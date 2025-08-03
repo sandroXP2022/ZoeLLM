@@ -30,7 +30,7 @@ Zoe LLM is a simple and modular toolkit for:
 
 - CPU with ***bfloat16*** support and six cores (12 threads)
 - Memory: ≥8GB RAM.
-- Disk: ≥32GB free for datasets and checkpoints.
+- Disk: ≥64GB free for datasets and checkpoints.
 - Python: 3.11
 
 ### Recommended Requirements
@@ -38,7 +38,7 @@ Zoe LLM is a simple and modular toolkit for:
 - CPU with ***bfloat16*** support and twelve cores (24 threads)*
 - SSD for fast I/O.
 - 64GB RAM (depending on model size)
-- ≥128GB free for datasets and checkpoints
+- ≥256GB free for datasets and checkpoints
 
 *It is possible to use GPU for training, but it requires some modifications to the code
 
