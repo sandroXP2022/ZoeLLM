@@ -8,12 +8,12 @@ from trainer import Trainer, TrainerConfig
 # ---------------------- VARIÁVEL DE DEBUG ----------------------
 DEBUG = 0  # 1 = log linha a linha, 0 = tqdm (barra de progresso)
 
-# ---------------------- QUANTIZAÇÃO TERNÁRIA ----------------------
-def quantize_ternary(model):
-    with torch.no_grad():
-        for p in model.parameters():
-            if p.requires_grad:
-                p.data.copy_(torch.sign(p.data))
+# ---------------------- NÃO TESTADO ----------------------
+# def quantize_ternary(model):
+#    with torch.no_grad():
+#        for p in model.parameters():
+#            if p.requires_grad:
+#                p.data.copy_(torch.sign(p.data))
 
 
 def main():
